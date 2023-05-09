@@ -15,8 +15,6 @@ public class Baseclass {
 
     public  static String baseURL = "https://app.payobank.in/";
 
-
-
     @BeforeMethod
     public void setup() {
       //  System.setProperty("webdriver.gecko.driver", "C:\\Users\\lenovo\\Downloads\\geckodriver\\geckodriver.exe");
