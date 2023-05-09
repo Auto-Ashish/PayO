@@ -19,7 +19,7 @@ public class Baseclass {
 
     @BeforeMethod
     public void setup() {
-        System.setProperty("webdriver.gecko.driver", "C:\\Users\\lenovo\\Downloads\\geckodriver\\geckodriver.exe");
+      //  System.setProperty("webdriver.gecko.driver", "C:\\Users\\lenovo\\Downloads\\geckodriver\\geckodriver.exe");
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
       //  driver = new FirefoxDriver();
