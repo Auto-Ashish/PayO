@@ -19,9 +19,11 @@ public class Baseclass {
 
     @BeforeMethod
     public void setup() {
-
-        driver = new FirefoxDriver();
+        System.setProperty("webdriver.gecko.driver", "C:\\Users\\lenovo\\Downloads\\geckodriver\\geckodriver.exe");
+        WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
+      //  driver = new FirefoxDriver();
+      //  driver.manage().window().maximize();
      //   driver.get("https://app.payobank.in/register");
       //  driver.get("https://app.payobank.in/");
 
