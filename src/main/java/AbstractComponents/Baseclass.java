@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import java.time.Duration;
 
 public class Baseclass {
-
+ 
     public static WebDriver driver;
 
     public  static String baseURL = "https://app.payobank.in/";
