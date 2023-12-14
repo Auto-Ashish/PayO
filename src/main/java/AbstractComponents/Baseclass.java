@@ -15,17 +15,22 @@ public class Baseclass {
 
     public  static String baseURL = "https://app.payobank.in/";
 
-
-
     @BeforeMethod
     public void setup() {
-
-        driver = new EdgeDriver();
+      //  System.setProperty("webdriver.gecko.driver", "C:\\Users\\lenovo\\Downloads\\geckodriver\\geckodriver.exe");
+        driver = new FirefoxDriver();
         driver.manage().window().maximize();
+      //  driver = new FirefoxDriver();
+      //  driver.manage().window().maximize();
      //   driver.get("https://app.payobank.in/register");
       //  driver.get("https://app.payobank.in/");
 
 
+    }
+    
+    @AfterMethod
+    public void closeInstance(){
+     driver.quit();   
     }
 
 
