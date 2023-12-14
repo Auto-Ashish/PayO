@@ -1,2 +1,3 @@
 PageObject\LoginPage.class
 AbstractComponents\Baseclass.class
+AbstractComponents\WaitTime.class
