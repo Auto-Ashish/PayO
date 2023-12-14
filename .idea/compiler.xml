@@ -9,8 +9,5 @@
         <module name="PayO" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="PayO" target="10" />
-    </bytecodeTargetLevel>
   </component>
 </project>
